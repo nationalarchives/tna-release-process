@@ -1,5 +1,7 @@
 # TNA release process
 
+*You can discuss this process [in this issue](https://github.com/nationalarchives/tna-release-process/issues/1) - please chime in with any suggestions, corrections or comments.
+
 Releases will be scheduled for once a week – maybe a Thursday or a Monday (we should discuss what is the ideal day for a release) – and changes will need to wait until the next release unless there is a very good reason not to.
 
 Versions will be numbered major.minor.patch – 
