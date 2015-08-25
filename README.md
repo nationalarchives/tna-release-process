@@ -18,7 +18,11 @@ e.g
 
 *Patch* version numbers are for interim fixes and bug-fixes – this will be releases that happen mid sprint.
 
+This is rather loosely based on [semantic versioning](http://semver.org/).
+
 ## Development process and release preparation: 
+We are using [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/) and you should ensure you are familiar with the process, it is not as complicated as some websites would have you believe!
+
 * You MUST pull before pushing
 * All development MUST be done in ```feature/``` branches tracking ```develop```.
 * ```feature/``` branches MUST ONLY be merged into ```develop``` when they are planned for the next scheduled release.
