@@ -33,6 +33,7 @@ We are using [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/)
   * if it is reliant on any content/acf changes
   * any other important information
   * how the feature can be tested with success/fail criteria
+  
 As there is currently no facility in SourceTree to make commit messages at merge this will need to be documented elsehwere. There is an [issue open](github.com/nationalarchives/tna-release-process/issues/2) where we can discuss alternative methods of managing this.
 
 ## Release process:
