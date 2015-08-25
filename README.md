@@ -27,12 +27,13 @@ We are using [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/)
 * All development MUST be done in ```feature/``` branches tracking ```develop```.
 * ```feature/``` branches MUST ONLY be merged into ```develop``` when they are planned for the next scheduled release.
 * All ```feature/``` branches MUST be pushed to Github at the end of the day so there is no risk of losing work in progress.
-* When you merge a ```feature/``` branch into ```develop``` could you please note clearly in the commit description the following.
+* When you merge a ```feature/``` branch into ```develop``` could you please note clearly ~~in the commit description~~ the following.
   * what the update does
   * what pages it affects
   * if it is reliant on any content/acf changes
   * any other important information
   * how the feature can be tested with success/fail criteria
+As there is currently no facility in SourceTree to make commit messages at merge this will need to be documented elsehwere. There is an [issue open](github.com/nationalarchives/tna-release-process/issues/2) where we can discuss alternative methods of managing this.
 
 ## Release process:
 Once a release has been confirmed:
