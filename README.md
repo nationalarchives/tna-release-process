@@ -18,6 +18,8 @@ e.g
 
 *Patch* version numbers are for interim fixes and bug-fixes – this will be releases that happen mid sprint.
 
+This is rather loosely based on [semantic versioning](http://semver.org/).
+
 ## Development process and release preparation: 
 * You MUST pull before pushing
 * All development MUST be done in ```feature/``` branches tracking ```develop```.
