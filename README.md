@@ -33,6 +33,11 @@ We are using [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/)
   * if it is reliant on any content/acf changes
   * any other important information
   * how the feature can be tested with success/fail criteria
+
+DEVLB is now available to test branches on an infrastructure closer to live (you will probably need to set up your git config - contact Webmaster for more details.
+  * remote into DEVLB with your web credentials
+  * open a git shell in the ```tna``` folder
+  * run the command ```git checkout <branch name> -t origin/<branch name>```
   
 As there is currently no facility in SourceTree to make commit messages at merge this will need to be documented elsehwere. There is an [issue open](github.com/nationalarchives/tna-release-process/issues/2) where we can discuss alternative methods of managing this.
 
@@ -48,7 +53,7 @@ Once a release has been confirmed:
 * the ```release/``` branch is merged into ```master```
 * the ```release/``` branch is deleted
 * a release is tagged from master – with a CHANGELOG and new version number - this should be done using Github's release process and must include information about all the features and fixes included in the release (which is why good commit commenting is essential)
-* the release is deployed to DEVLB and, when confirmed, TESTLB and LIVELB
+* the release is deployed to TESTLB, and when confirmed, LIVELB
  
 Once a release branch has been created features for the next release can start to be merged to develop.
 
